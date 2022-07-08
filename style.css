@@ -1,4 +1,28 @@
 .page1{
     text-align: center;
+    background-color: black;
+    color:white;
+    font-size: 30px;
+    
+}
+p{
+    font-size: 20px;
+}
+body{
+    background-color: rgb(139, 172, 172);
+    margin:0px;
 
 }
+.flex-1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+.flex-1-1{
+    background-color: red;
+    color:beige;
+    border:0.5px solid rgba(235, 100, 100, 0.849);
+    text-align:center;
+    padding:5px 50px;
+} 
