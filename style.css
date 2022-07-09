@@ -4,12 +4,19 @@
     font-size: 30px;
     
 }
-ul{list-style:none;
+.page2 div{display: block}
+.page3{background-color: aqua;display:none;}
+.page2:hover{color:yellow;font-weight: bold; }
+.page2:hover+.page3{display: block;}
+
+
+
+.ul01{list-style:none;
     margin:0;
     padding:0;
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: antiquewhite;
 
 }
@@ -19,6 +26,35 @@ li{padding:10px 50px 10px 50px;
 }
 li:hover{background-color:red}
 
+.div-01{display: flex;
+flex-direction: row;
+align-items: center;
+min-width: auto;
+}
+
+
+.png01{border-radius: 100%;
+    margin:0 20px 0 20px
+    
+}
+
+.text01{display:flex;
+flex-direction: column;
+font-size:8px;
+margin:0 20px 0 20px;
+}
+
+/* ul li{display: inline-block;}
+ul li:hover{background-color: blue;}
+ul li:hover ul{display: block;}
+ul li ul {position: absolute;
+    width:200px;
+    display:none;}
+ul li ul li{background-color: blueviolet;
+    display: block;} */
+
+
+
 /*@keyframes 導覽列{
     from{background-color: red;}
     to{background-color: yellow;}
@@ -27,7 +63,6 @@ li:hover{background-color:red}
 .li{animation-name:導覽列; */
  
     
-}
 
 p{
     font-size: 20px;
@@ -37,15 +72,3 @@ body{
     margin:0px;
 
 }
-.flex-1{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
-.flex-1-1{
-    background-color: red;
-    color:beige;
-    border:0.5px solid rgba(235, 100, 100, 0.849);
-    text-align:center;
-    padding:5px 50px;
-} 
