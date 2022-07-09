@@ -1,10 +1,34 @@
 .page1{
     text-align: center;
-    background-color: black;
-    color:white;
+
     font-size: 30px;
     
 }
+ul{list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: antiquewhite;
+
+}
+li{padding:10px 50px 10px 50px;
+   display: block;
+   text-align: center;
+}
+li:hover{background-color:red}
+
+/*@keyframes 導覽列{
+    from{background-color: red;}
+    to{background-color: yellow;}
+
+}
+.li{animation-name:導覽列; */
+ 
+    
+}
+
 p{
     font-size: 20px;
 }
