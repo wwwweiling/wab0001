@@ -1,9 +1,35 @@
 li{list-style-type:none;
 display: inline-block;}
 
+body{font-family: 'Noto Sans TC', sans-serif;}
+
 .main{width:980px;
     margin:0 auto;
+    
 }
-.line{border-bottom:2px solid rgba(139, 146, 46, 0.671) ;padding-top:20px ;
-}
+.line{border-bottom:2px solid rgba(139, 146, 46, 0.671) ;
+    margin-bottom:5px;
+    margin-top:20px;
+    padding-top:5px;
+} 
+.ul1 {font-size: 2em;
+    display: flex; flex-direction: row;
+     justify-content: space-around; 
+     align-items: center;}    
 
+img{display: block;
+margin:auto;}
+
+div>img{min-width:100%;min-height: 100%; margin-top: 40px;}
+
+footer{background-color: rgba(139, 146, 46, 0.671);
+    height: 135px;
+    min-width:1000px; 
+}
+.end{font-size: 1em;
+font-weight: bold;
+display: inline-block;
+
+}
+.end li{border: 2px solid black; margin: 20px 10px;}
+span{}
