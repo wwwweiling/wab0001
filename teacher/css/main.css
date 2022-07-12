@@ -1,0 +1,9 @@
+li{list-style-type:none;
+display: inline-block;}
+
+.main{width:980px;
+    margin:0 auto;
+}
+.line{border-bottom:2px solid rgba(139, 146, 46, 0.671) ;padding-top:20px ;
+}
+

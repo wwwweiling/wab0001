@@ -1,0 +1,22 @@
+li{list-style-type: none;}    
+
+body{margin: 0;}
+.head{display: flex;
+font-size: 0.8em;
+flex-wrap:wrap;
+flex-direction: row;
+justify-content: center;
+background-color: rgba(204, 95, 95, 0.2);
+letter-spacing: 0.1em;
+
+}
+.head div{margin:10px 12px;
+    border:2px solid black;
+     padding: 10px;}
+li{display:none;}
+
+.head div:hover{background-color: bisque;}
+.head div:hover li{display: block;}
+
+.end{
+}
