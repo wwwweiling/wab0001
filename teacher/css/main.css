@@ -25,74 +25,76 @@ header img{width: 150px;}
 
 .ul1{display: flex;list-style-type: none;
     margin: 0;padding: 0 ;height:80px; width: 100%;
-    border-top:1px solid #999562;
-    border-bottom:1px solid #999562;
+    border-top:1px solid #8A8000;
+    border-bottom:1px solid #8A8000;
     justify-content: center;
     align-items: center;}
 
 .ul1 li{font-size: 1.5em;
     line-height: 80px;
-    text-align: center;
-}    
+    text-align: center;}    
 
 .box1{ height:80px;
     width: 33.3%;}
 .box2{ height:80px;
     width: 33.3%;}    
 .box3{ height:80px;
-    width: 33.3%;}    
+    width: 33.3%;}  
 
-a{color:black;text-decoration: none;}
-a>span{color:rgb(97, 102, 32);}
-.hover1:hover{background-color:rgba(97, 102, 32,0.7) }    
+.game{display: none;}
+.game>p{line-height: 0px;  text-indent: 2rem;} 
+.spacing{letter-spacing: 3px;}
+.game p:last-child{letter-spacing: 1px;}
+
+.ul1 li a{color:black;text-decoration: none;font-weight: bold;}
+a>span{color:#8A8000;}
+.hover1:hover{background-color:rgba(97, 102, 32,0.7) }  
+
 .img img{margin-top:20px;min-width:100%;min-height: 100%;}
 
-/* footer還沒做 */
+.hover1:hover .game{display: flex;flex-direction: column; 
+    justify-content: center;align-items: flex-start;
+   font-size: 0.6em; padding: 10px 0 10px 0; 
+    font-weight: bold;background-color: #8A8000;
+    color:white;margin-top:-2px; position: relative;
+}
+
+.hover1:hover .game:hover {background-color:black ;}
+footer{background-color: #8A8000; margin-top: 40px;}
+
+/* .ul2{width: 1000px;height:135px; display: flex;
+margin: 0 auto;
+ }
+.box01,.box02,.box03,.box04,.box05{padding:20px 20px 0 30px;}
+.box05{padding-left: 250px;} */
+footer>div{width: 1000px;
+    height:135px;margin:0 auto;
+    padding-top:30px ;
+    position: relative;
+    color: white;
+    font-weight:bold;
+}
+
+.ul2 a{margin-left:30px ;text-decoration: none;color: white;}
+.right{position:absolute;right:20px; top:30px;letter-spacing: 2px;}
+.ul2>a:hover{border-bottom:1px solid white;}
 
 
 
-/* footer還沒做 */
-
-
-/* p{} */
-
+p{ text-align:justify;font-size: 1em;letter-spacing:2px;
+    line-height: 28px;}
+section{border: 1px solid #8A8000;}   
 
 .flex-3{display: flex;
 flex-wrap: nowrap;}
-
-
-.flex-3-1{width: 20%;margin:10px;}
+.flex-3-1{width: 20%;margin:11px;}
 .flex-3-2{width: 38%}
+.flex-3-2>p{font-size: 25px;
+font-weight: bold; line-height:10px;letter-spacing: 0px;}
+.flex-3-2 p:first-child{letter-spacing: 2px;}
+.flex-3-2>div{font-size: 15px;padding-top: 70px;
+    color:#8A8000;;font-weight: bold;}
 .flex-3-3{width: 38%}
 
-.flex-3-2>p{font-family:'Noto Sans TC';} 
 
-
-
-/* 
-.hover1{list-style-type:none;
-padding:20px 80px ;
-margin:0 -5px;
-display: inline-block;
-} */
-     
-
-
- /*也可以下: header display inline-block 如下*/
-/* header{display: inline-block;text-align: center;width:150px;}在設定大小 */
-/* 可直接撐開圖片以達到上下有寬距- 可以margin和padding */
-/* img{margin:10px 0;}  */
-
-
-/* div>img{min-width:100%;min-height: 100%; margin-top: 30px;}
-
-footer {list-style-type:none; margin:0 auto;
-    background-color: rgba(139, 146, 46, 1);}
-footer div{width: 1000px;height:135px;
-}
-.flex02{display: flex; 
-font-size: 35px;
-height:135px ;
-width:1000px;} */
-
- */
+ 
