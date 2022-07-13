@@ -1,35 +1,98 @@
-li{list-style-type:none;
-display: inline-block;}
-
-body{font-family: 'Noto Sans TC', sans-serif;}
-
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  @font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 700;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2) format('woff2'),
+         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff) format('woff'),
+         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf) format('opentype');
+  } 
 .main{width:980px;
     margin:0 auto;
-    
 }
-.line{border-bottom:2px solid rgba(139, 146, 46, 0.671) ;
-    margin-bottom:5px;
-    margin-top:20px;
-    padding-top:5px;
-} 
-.ul1 {font-size: 2em;
-    display: flex; flex-direction: row;
-     justify-content: space-around; 
-     align-items: center;}    
+body{font-family: 'Noto Sans TC', sans-serif;}
+header {display: inline-block;text-align: center; margin-top: 20px; margin-bottom: 10px;}
+header img{width: 150px;}
 
-img{display: block;
-margin:auto;}
+.ul1{display: flex;list-style-type: none;
+    margin: 0;padding: 0 ;height:80px; width: 100%;
+    border-top:1px solid #999562;
+    border-bottom:1px solid #999562;
+    justify-content: center;
+    align-items: center;}
 
-div>img{min-width:100%;min-height: 100%; margin-top: 40px;}
+.ul1 li{font-size: 1.5em;
+    line-height: 80px;
+    text-align: center;
+}    
 
-footer{background-color: rgba(139, 146, 46, 0.671);
-    height: 135px;
-    min-width:1000px; 
-}
-.end{font-size: 1em;
-font-weight: bold;
+.box1{ height:80px;
+    width: 33.3%;}
+.box2{ height:80px;
+    width: 33.3%;}    
+.box3{ height:80px;
+    width: 33.3%;}    
+
+a{color:black;text-decoration: none;}
+a>span{color:rgb(97, 102, 32);}
+.hover1:hover{background-color:rgba(97, 102, 32,0.7) }    
+.img img{margin-top:20px;min-width:100%;min-height: 100%;}
+
+/* footer還沒做 */
+
+
+
+/* footer還沒做 */
+
+
+/* p{} */
+
+
+.flex-3{display: flex;
+flex-wrap: nowrap;}
+
+
+.flex-3-1{width: 20%;margin:10px;}
+.flex-3-2{width: 38%}
+.flex-3-3{width: 38%}
+
+.flex-3-2>p{font-family:'Noto Sans TC';} 
+
+
+
+/* 
+.hover1{list-style-type:none;
+padding:20px 80px ;
+margin:0 -5px;
 display: inline-block;
+} */
+     
 
+
+ /*也可以下: header display inline-block 如下*/
+/* header{display: inline-block;text-align: center;width:150px;}在設定大小 */
+/* 可直接撐開圖片以達到上下有寬距- 可以margin和padding */
+/* img{margin:10px 0;}  */
+
+
+/* div>img{min-width:100%;min-height: 100%; margin-top: 30px;}
+
+footer {list-style-type:none; margin:0 auto;
+    background-color: rgba(139, 146, 46, 1);}
+footer div{width: 1000px;height:135px;
 }
-.end li{border: 2px solid black; margin: 20px 10px;}
-span{}
+.flex02{display: flex; 
+font-size: 35px;
+height:135px ;
+width:1000px;} */
+
+ */
