@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/wabprc/bootstrap/coffee.css">
+    <style>
+
+.carousel .item {height: 100px;background-color: #777;}
+
+.carousel-inner > .item > img {position: absolute;top: 0;left: 0;min-width: 100%;
+  height: 500px;}
+  .img-fluid{max-width: 100%; 和 height: auto;} 
+    </style>
+
+  </head>
+  <body>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="coffee-1">
+        <img class="logo" src="/wabprc/bootstrap/img/logo.png" alt="logo"/>
+        <!-- 下拉式選單 -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span> 
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">門市查詢</a>
+            </li>
+            <li class="nav-item-item">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                商品介紹
+              </a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">最新消息</a>
+              </li>    
+              <li class="nav-item">
+                <a class="nav-link" href="#">聯絡我們</a>
+              </li>
+              </ul>
+              <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown"> -->
+                <!-- <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>            
+          <form class="d-flex"> <!--改成圖示並點選點時可填入資料-->
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/wabprc/bootstrap/img/shellfish-pasta-pizza-and-italian-food.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/wabprc/bootstrap/img/classic-bbq-dining.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/wabprc/bootstrap/img/indian-food-on-restaurant-table.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div> 
+        <div class="container">
+          <div class="row my-4">
+              <div class="col-md-4 my-2">
+                  <img src="/wabprc/bootstrap/img/classic-bbq-dining.jpg" alt="" class="w-100">
+                  <h4 class="my-4">"Amazing.Incredible."</h4>
+                  <p>Quibusdam consequuntur voluptatum repudiandae facere magni veniam laudantium ea 									  perspiciatis distinctio nihil molestiae labore iure, mollitia in animi repellendus sit ipsum. 
+                  </p>
+                  <a href="#" class="btn btn-outline-dark btn-md">Our Story</a>
+              </div>
+              <div class="col-md-4 my-2">
+                  <img src="/wabprc/bootstrap/img/indian-food-on-restaurant-table.jpg" alt="" class="w-100">
+                  <h4 class="my-4">"Amazing.Incredible."</h4>
+                  <p>Quibusdam consequuntur voluptatum repudiandae facere magni veniam laudantium ea 									  perspiciatis distinctio nihil molestiae labore iure, mollitia in animi repellendus sit ipsum. 
+                  </p>
+                  <a href="#" class="btn btn-outline-dark btn-md">Our Story</a>
+              </div>
+              <div class="col-md-4 my-2">
+                  <img src="/wabprc/bootstrap/img/shellfish-pasta-pizza-and-italian-food.jpg" alt="" class="w-100">
+                  <h4 class="my-4">"Amazing.Incredible."</h4>
+                  <p>Quibusdam consequuntur voluptatum repudiandae facere magni veniam laudantium ea 									  perspiciatis distinctio nihil molestiae labore iure, mollitia in animi repellendus sit ipsum. 
+                  </p>
+                  <a href="#" class="btn btn-outline-dark btn-md">Our Story</a>
+              </div>    
+          </div>   
+          <div class="jumbotron mt-5">
+            <h1 class="display-4">廣告就在這在這裡</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModalCenter" href="#" role="button">Learn more</a>
+          </div>
+         <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </body>   
+</html>
