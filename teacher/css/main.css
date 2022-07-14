@@ -109,4 +109,4 @@ font-weight: bold; line-height:10px;letter-spacing: 0px;}
 .buttom{font-size: 20px;display:inline-block;background-color: #8A8000;
     font-weight: bold;padding: 6px 12px; border-radius:15px;color:white;
     position: absolute;right: 5px;top:7px;}
-/* .flex-3-2>.money-1{padding-top: 100px;} */
+.money-1{margin-top: 60px;}
