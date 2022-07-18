@@ -16,14 +16,14 @@ html {
          url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff) format('woff'),
          url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf) format('opentype');
   } 
-.main{width:980px;
-    margin:0 auto;
+.main{/*width:980px;*/
+    margin:0 auto;width:100%;max-width:1000px
 }
 body{font-family: 'Noto Sans TC', sans-serif;}
 header {display: inline-block;text-align: center; margin-top: 20px; margin-bottom: 10px;}
 header img{width: 150px;}
 
-.ul1{display: flex;list-style-type: none;
+.ul1{display: flex;list-style-type: none; flex-wrap: nowrap;
     margin: 0;padding: 0 ;height:80px; width: 100%;
     border-top:1px solid #8A8000;
     border-bottom:1px solid #8A8000;
@@ -67,23 +67,24 @@ margin: 0 auto;
  }
 .box01,.box02,.box03,.box04,.box05{padding:20px 20px 0 30px;}
 .box05{padding-left: 250px;} */
-footer>div{width: 1000px;
+footer>div{width: 100%;
     height:135px;margin:0 auto;
     padding-top:30px ;
     position: relative;
     color: white;
     font-weight:bold;
 }
-
-.ul2 a{margin-left:30px ;text-decoration: none;color: white;}
-.right{position:absolute;right:20px; top:30px;letter-spacing: 2px;}
+.ul2{margin: 0 auto;position:absolute;left:160px;}
+.ul2 a{ margin-left:20px ;text-decoration: none;color: white;}
+.right{position:absolute;right:175px; top:30px;letter-spacing: 2px;}
 .ul2>a:hover{border-bottom:1px solid white;}
 
 
-
+.text{ text-align:justify;font-size: 1em;letter-spacing:2px;
+    line-height: 28px;}
 p{ text-align:justify;font-size: 1em;letter-spacing:2px;
     line-height: 28px;}
-section{border: 1px solid #8A8000;}   
+.store-1{border: 1px solid #8A8000;}   
 
 .flex-3{display: flex;
 flex-wrap: nowrap;}
@@ -110,3 +111,42 @@ font-weight: bold; line-height:10px;letter-spacing: 0px;}
     font-weight: bold;padding: 6px 12px; border-radius:15px;color:white;
     position: absolute;right: 5px;top:7px;}
 .money-1{margin-top: 60px;}
+.flex-4-2p>p{line-height: 10px;}
+
+.game-main{display: flex;flex-direction: column;width: 980px;margin: 0 auto;position: relative;}
+.game-main>.g-box1{display: flex; justify-content: space-between;
+    align-items: flex-start; margin-top: 30px;}
+
+.game-box{background-color:#8A8000;height:380px;}
+/* .row-2{position: absolute;right: 250px;}  */
+
+
+/* @media (max-width:992px){.ul1 li{font-size: 20px;} .text{line-height: 20px;} 
+.flex-3{display:取消flex }
+.flex-3-1 img{width:100%}
+.flex-3-2 width:38%取消 
+.flex-3-3 padding:70px取消
+.flex-3-3 item border取消
+.flex-4 width:370px*/
+
+
+ @media (max-width:992px){
+    .ul1 li{font-size: 20px;}
+    .flex-3{flex-direction: column;}
+    .flex-3-1 img{width:100%}
+    .flex-3-1 {width:95%}
+    .flex-3-2 {width:100%; align-items: center;}
+    .flex-3-2>p{padding-left: 10px;margin-top: 10px;}
+    .flex-3-2>div{padding-top:0px;}
+    .flex-3-3{width: 100%;}
+    .money-1{margin-top: 0px}
+    .right{right: 10%;top:50%}
+    .ul2{width:100%; left:0px}
+    .game>p{text-indent: 5px;text-align:start;width:100%;line-height:100%;}
+
+ }
+
+
+
+ /*小於992px會執行的css*/
+/* @media (min-width:992px){}  大於992px會執行的css */
